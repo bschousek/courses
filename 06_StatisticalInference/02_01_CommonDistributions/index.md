@@ -54,7 +54,7 @@ title(paste("Likelihoods for n = ", n))
 ```
 
 ---
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+![plot of chunk unnamed-chunk-1](fig/unnamed-chunk-1.png) 
 
 
 ---
@@ -161,7 +161,7 @@ plot(pvals, dbinom(7, 8, pvals)/dbinom(7, 8, 7/8), lwd = 3, frame = FALSE, type 
     xlab = "p", ylab = "likelihood")
 ```
 
-![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](fig/unnamed-chunk-3.png) 
 
 
 ---
@@ -186,7 +186,7 @@ plot(zvals, dnorm(zvals), type = "l", lwd = 3, frame = FALSE, xlab = "z", ylab =
 sapply(-3:3, function(k) abline(v = k))
 ```
 
-<img src="assets/fig/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="fig/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 
 ---
